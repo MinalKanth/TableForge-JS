@@ -1,11 +1,1 @@
-function printTable() {
-
-for ( let i = 1; i <= 10; i++)
-{
-    console.log(num + '*' + i + '=' + num * i);
-}
-
-}
- const num = prompt('Enter the number');
-
- printTable (num);
+function printTable(number) { console.log(`Multiplication Table for ${number}`); for (let i = 1; i <= 10; i++) { console.log(`${number} × ${i} = ${number * i}`); } } const number = Number( prompt("Enter a number to generate its multiplication table:") ); printTable(number);
